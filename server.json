@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.chinakit/mcp",
+  "title": "ChinaKit — China Travel, Visa, Meds, Tax & Payment Compliance Engine",
+  "description": "Verify China 240h TWOV transit, customs meds, work permit points, expat IIT & CAAC limits.",
+  "version": "1.0.0",
+  "websiteUrl": "https://chinakit.io",
+  "repository": {
+    "url": "https://github.com/AbigailDavised/chinakit-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://chinakit.io/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chinakit.io/api/mcp"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "chinakit-mcp",
+  "version": "1.0.0",
+  "description": "Official stateless MCP server for ChinaKit.io — China work permit points, customs meds, expat IIT, 240h TWOV transit, Hague Apostille & CAAC flight limits.",
+  "homepage": "https://chinakit.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbigailDavised/chinakit-mcp.git"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "chinakit",
+  "version": "1.0.0",
+  "description": "Official stateless MCP server for ChinaKit.io — China work permit points, customs meds, expat IIT, 240h TWOV transit, Hague Apostille & CAAC flight limits.",
+  "homepage": "https://chinakit.io",
+  "repository": "https://github.com/AbigailDavised/chinakit-mcp",
+  "license": "MIT",
+  "author": {
+    "name": "Abigail Davised",
+    "email": "admin@chinakit.io",
+    "url": "https://chinakit.io"
+  },
+  "keywords": [
+    "china-travel",
+    "visa-free-transit",
+    "work-permit",
+    "customs-medication",
+    "expat-tax",
+    "apostille",
+    "mcp"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "chinakit": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
