@@ -1,5 +1,6 @@
 {
-  "$schema": "https://glama.ai/mcp/schemas/connector.json",
-  "maintainers": ["AbigailDavised"],
-  "url": "https://chinakit.io/api/mcp"
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": [
+    "AbigailDavised"
+  ]
 }

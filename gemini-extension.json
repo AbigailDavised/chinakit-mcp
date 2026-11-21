@@ -1,0 +1,11 @@
+{
+  "name": "chinakit",
+  "version": "1.0.0",
+  "description": "Verify China 240h TWOV transit, customs meds, work permit points, expat IIT & CAAC limits.",
+  "mcpServers": {
+    "chinakit": {
+      "type": "http",
+      "url": "https://chinakit.io/api/mcp"
+    }
+  }
+}
